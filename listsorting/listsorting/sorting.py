@@ -7,6 +7,8 @@ from random import randint
 # Reference for some algorithm implementations:
 # https://realpython.com/sorting-algorithms-python/
 
+# TODO: Add all of the source code based on the above article
+
 
 def bubble_sort(array: List[int]) -> List[int]:
     """Sort an input list called array using bubble sort."""
