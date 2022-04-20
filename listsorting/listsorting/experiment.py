@@ -19,8 +19,6 @@ from timeit import repeat
 def format_decimal(number: float):
     """Round a number up and then encode with five decimal places."""
     format_float = "{:.5f}".format(number)
-    # multiplier = 10 ** decimals
-    # return "{:.5f}".format(math.ceil(n * multiplier) / multiplier)
     return format_float
 
 
