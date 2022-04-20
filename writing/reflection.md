@@ -1,5 +1,11 @@
 # Sorting Algorithms
 
+TODO: Make sure that you delete all of the TODO markers and either
+delete or rephrase all of the prompts inside of this file. When you are
+finished writing this reflection it should contain technical details,
+empirical results, and an analysis of the results that are suitable for
+publication on your professional web site.
+
 ## Add Your Name Here
 
 ## Program Output
