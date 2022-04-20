@@ -91,6 +91,11 @@ jobs:
           run: |
             cd listsorting
             poetry run task pylint
+        # Run the mypy type checking tool
+        - name: Run Mypy Type Checking Tool
+          run: |
+            cd listsorting
+            poetry run task mypy
         # Run the test suite
         - name: Run Pytest Test Suite
           run: |
