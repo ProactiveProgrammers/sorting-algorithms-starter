@@ -1,7 +1,7 @@
 # Sorting Algorithms
 
-## Assigned: Thursday, November 18, 2021
-## Due: Thursday, December 2, 2021
+## Assigned: Wednesday, April 20, 2022
+## Due: Wednesday, April 27, 2022
 
 After cloning this repository to your computer, please take the following steps:
 
@@ -16,6 +16,8 @@ After cloning this repository to your computer, please take the following steps:
   - Refer to the `writing/reflection.md` for details about designing your experiment
 - Read the article at this web site for the needed source code: https://realpython.com/sorting-algorithms-python/
 - Confirm that the program is producing acceptable experimental output
+- Make sure that you understand how `listsorting` conducts a doubling experiment
+- Commit frequently to your GitHub repository, always using descriptive commit messages
 - Use a `docker run` command for your operating system to run GatorGrader
 - Please be aware that performance profiling in a Docker contain may not work as expected
 - Provide all of the required responses in the `writing/reflection.md` file
