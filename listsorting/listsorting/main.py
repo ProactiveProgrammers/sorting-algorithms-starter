@@ -8,9 +8,13 @@ from enum import Enum
 import typer
 
 from rich.console import Console
-from tabulate import tabulate
 
-from listsorting import experiment
+# TODO: import the tabulate module from the tabulate package;
+# make sure to refer to this module's documentation on GitHub
+# for more information about how to use this package:
+# https://github.com/astanin/python-tabulate
+
+# TODO: import the experiment module from the listsorting package
 
 # create a Typer object to support the command-line interface
 cli = typer.Typer()
