@@ -50,7 +50,7 @@ def listsorting(
     # --> maximum_value
     # --> number_doubles
     # TODO: use the tabulate function to create a data table of the experimental_results
-    # make sure that the data table has a header that is organized in this fashion:
+    # TODO: make sure that the data table has a header that is organized in this fashion:
     # --> Column 1: Input Size
     # --> Column 2: Minimum execution time in seconds
     # --> Column 3: Maximum execution time in seconds
@@ -59,5 +59,5 @@ def listsorting(
     # then the data should be displayed below it in rows.
     # There should be a single row for each level of the
     # doubling experiment conducted by run_sorting_algorithm_experiment_campaign
-    # Reference for the tabulate package:
+    # NOTE: Reference for the tabulate package:
     # https://github.com/astanin/python-tabulate
