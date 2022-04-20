@@ -9,6 +9,12 @@ from random import randint
 
 # TODO: Add all of the source code based on the above article
 
+# TODO: Please develop an intuitive understanding about which of
+# these sorting algorithms are fast and which ones are slow. To
+# build up this intuitive understand you can read additional
+# online articles, check your course text book, and count
+# the number of iteration constructs and basic operations.
+
 
 def bubble_sort(array: List[int]) -> List[int]:
     """Sort an input list called array using bubble sort."""
