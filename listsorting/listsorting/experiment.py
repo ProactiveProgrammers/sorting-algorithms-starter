@@ -8,7 +8,11 @@ import random
 
 from timeit import repeat
 
-# Reference for some parts of the experimentation framework:
+# TODO: Make sure that you understand how these functions enable
+# the listsorting program to conduct a doubling experiment with
+# automatically generated random data.
+
+# NOTE: Reference for some parts of the experimentation framework:
 # https://realpython.com/sorting-algorithms-python/
 
 
