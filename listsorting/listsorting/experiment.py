@@ -1,12 +1,10 @@
 """Conduct doubling experiments for provided algorithms that perform list sorting."""
 
+import random
+from timeit import repeat
+from typing import Any
 from typing import List
 from typing import Tuple
-from typing import Union
-
-import random
-
-from timeit import repeat
 
 # TODO: Make sure that you understand how these functions enable
 # the listsorting program to conduct a doubling experiment with
@@ -66,7 +64,7 @@ def run_sorting_algorithm_experiment_campaign(
     starting_size: int,
     maximum_value: int,
     number_doubles: int,
-) -> List[List[Union[int, Tuple[float, float, float]]]]:
+) -> List[List[Any]]:
     """Run an entire sorting algorithm experiment campaign."""
     data_table = []
     # run a total of number_doubles number of doubles for the input size
