@@ -5,6 +5,8 @@ import pytest
 
 from listsorting import sorting
 
+# TODO: Add comments to explain the purpose of these test cases
+# TODO: These test cases are parametrized test cases. Can you explain what that means?
 
 @pytest.mark.parametrize(
     "list_inputs, expected_answer",
