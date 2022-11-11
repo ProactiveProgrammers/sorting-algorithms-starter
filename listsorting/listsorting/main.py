@@ -26,11 +26,11 @@ console = Console()
 class ListSortingApproach(str, Enum):
     """Define the name for the approach for performing list sorting with different algorithms."""
 
-    bubblesort = "bubble"
-    insertionsort = "insertion"
-    mergesort = "merge"
-    quicksort = "quick"
-    timsort = "tim"
+    BUBBLESORT = "bubble"
+    INSERTIONSORT = "insertion"
+    MERGESORT = "merge"
+    QUICKSORT = "quick"
+    TIMSORT = "tim"
 
 
 @cli.command()
@@ -38,7 +38,7 @@ def listsorting(
     starting_size: int = typer.Option(1000000),
     maximum_value: int = typer.Option(10000),
     number_doubles: int = typer.Option(10),
-    approach: ListSortingApproach = ListSortingApproach.bubblesort,
+    approach: ListSortingApproach = ListSortingApproach.BUBBLESORT,
 ) -> None:
     """Conduct a doubling experiment to measure the performance of list sorting for various algorithms."""
     # TODO: display diagnostic details about the configuration of the experiment
