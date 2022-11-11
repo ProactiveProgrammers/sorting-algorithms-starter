@@ -36,7 +36,7 @@ def quick_sort(array: List[int]) -> List[int]:
     """Sort the provided list called array with the quick sort algorithm."""
 
 
-def insertion_sort_tim(array: int, left: int = 0, right=None):
+def insertion_sort_tim(array: List[int], left: int = 0, right=None):
     """Use an internal sorting algorithm for the timsort algorithm."""
 
 
