@@ -38,9 +38,8 @@ TODO: Provide an output from running the final version of your program
 ## Experiment Design
 
 TODO: Explain the setup for your experiment that you ran to characterize the
-performance of the different configurations of containment checking algorithms.
-For instance, you should consider the following parameters as a part of your
-experiment:
+performance of the different configurations of the sorting algorithms.
+For instance, you should consider the following parameters for your experiment:
 
 - The specific sorting algorithm (e.g., bubble sort or merge sort)
 - The starting size of the data container: small values (e.g., 1024 numbers) to big
