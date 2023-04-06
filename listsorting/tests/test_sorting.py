@@ -1,4 +1,4 @@
-"""Tests for the sorting function to ensure that sort algorithms work correctly."""
+"""Tests for the sorting functions to ensure that sort algorithms work correctly."""
 
 
 import pytest
