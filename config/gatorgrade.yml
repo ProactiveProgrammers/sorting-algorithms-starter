@@ -130,6 +130,35 @@ setup: |
         count: 2
         exact: false
 
+# perform checks on a file
+- writing/reflection.md:
+    - description: Ensure that the reflection.md file exists in the writing/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for the reflection
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Your Name Here' prompt in the reflection file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Your Name Here"
+        count: 0
+        exact: true
+    - description: Confirm that the markdown file has the correct number of headers
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 18
+        exact: false
+    - description: Confirm that the markdown file has the correct number of fenced code blocks
+      check: CountMarkdownTags
+      options:
+        tag: code_block
+        count: 5
+        exact: false
+
 # run a command
 - description: Pass the source code formatting checks run by black
   command: cd listsorting && poetry run task black
@@ -161,35 +190,6 @@ setup: |
 # run a command
 - description: Pass all of the Pytest test cases
   command: cd listsorting && poetry run task test
-
-# perform checks on a file
-- writing/reflection.md:
-    - description: Ensure that the reflection.md file exists in the writing/ directory
-      check: ConfirmFileExists
-    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for the reflection
-      check: MatchFileFragment
-      options:
-        fragment: TODO
-        count: 0
-        exact: true
-    - description: Delete the 'Add Your Name Here' prompt in the reflection file
-      check: MatchFileFragment
-      options:
-        fragment: "Add Your Name Here"
-        count: 0
-        exact: true
-    - description: Confirm that the markdown file has the correct number of headers
-      check: CountMarkdownTags
-      options:
-        tag: heading
-        count: 18
-        exact: false
-    - description: Confirm that the markdown file has the correct number of fenced code blocks
-      check: CountMarkdownTags
-      options:
-        tag: code_block
-        count: 5
-        exact: false
 
 # count number of commits in the GitHub repository
 - description: Have at least a specific minimum of commits in repository
