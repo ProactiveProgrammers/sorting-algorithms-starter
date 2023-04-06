@@ -66,14 +66,14 @@ TODO: You should provide the three research questions in a bulleted list.
 
 ### Empirical Evaluation
 
-TODO: The output data tables provided above of the ones that you should
+TODO: The output data tables provided above are the ones that you should
 reference when you are reporting on your empirical evaluation.
 
-TODO: Provide at least three paragraphs that explain which containment checking
-algorithm is fastest, by how much it is faster, and how you knew that it was
-faster, referencing the data in the aforementioned command outputs and the data
-tables to support your response. You should make sure that you answer each of
-the at least three research questions that you posed in a previous section.
+TODO: Provide at least three paragraphs that explain which sorting algorithm is
+fastest, by how much it is faster, and how you knew that it was faster,
+referencing the data in the aforementioned command outputs and the data tables
+to support your response. You should make sure that you answer each of the at
+least three research questions that you posed in a previous section.
 
 TODO: Make sure that your responses explain WHY certain configurations are faster!
 TODO: It is not sufficient to ONLY explain WHICH configuration is faster!
@@ -83,20 +83,20 @@ ratio that is suggested by your empirical results.
 
 ### Analytical Evaluation
 
-TODO: Using the provided source code for the different containment check
-algorithms, your textbook, your experimental results, and any relevant online
-resources that you cite in this reflection, define the worst-case time
-complexity, using the big-O notation, for the five sorting algorithms. Please
-note that you do not need to prove the worst-case time complexity; rather you
-may reference existing sources that tell you the worst-case time complexity and
-then confirm that they are correct by using your empirical results.
+TODO: Using the provided source code for the different sorting algorithms, your
+textbook, your experimental results, and any relevant online resources that you
+cite in this reflection, define the worst-case time complexity, using the big-O
+notation, for the five sorting algorithms. Please note that you do not need to
+prove the worst-case time complexity; rather you may reference existing sources
+(e.g., online articles or your textbook) that tell you the worst-case time
+complexity and then confirm that they are correct by using your empirical results.
 
 TODO: You should use the doubling ratio that arises from your empirical results
 to suggest the likely worst-case time complexity of the studied algorithms.
 
 ## Professional Development
 
-### What is challenging about designing an experiment to evaluate sorting algorithm's performance?
+### What is challenging about designing an experiment to evaluate a sorting algorithm's performance?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
