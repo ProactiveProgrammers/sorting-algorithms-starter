@@ -15,6 +15,9 @@ from random import randint
 # online articles, check your course text book, and count
 # the number of iteration constructs and basic operations.
 
+# TODO: Make sure that you add comments to all of these functions
+# so as to make it clear that you understand how each step works
+
 
 def bubble_sort(array: List[int]) -> List[int]:
     """Sort an input list called array using bubble sort."""
