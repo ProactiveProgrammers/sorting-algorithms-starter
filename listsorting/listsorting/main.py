@@ -1,7 +1,10 @@
 """Perform an experiment to study efficiency of sorting."""
 
-# Reference for some algorithm implementations:
+# TODO: Reference for some algorithm implementations:
 # https://realpython.com/sorting-algorithms-python/
+
+# TODO: Read the entire article at the aforementioned
+# web site so that you understand each of the sorting methods
 
 from enum import Enum
 
@@ -31,6 +34,10 @@ class ListSortingApproach(str, Enum):
     MERGESORT = "merge"
     QUICKSORT = "quick"
     TIMSORT = "tim"
+
+    def __str__(self):
+        """Define a default string representation."""
+        return self.value
 
 
 @cli.command()
