@@ -42,8 +42,8 @@ performance of the different configurations of the sorting algorithms.
 For instance, you should consider the following parameters for your experiment:
 
 - The specific sorting algorithm (e.g., bubble sort or merge sort)
-- The starting size of the data container: small values (e.g., 1024 numbers) to big
-  values (e.g., 1,048,576 numbers)
+- The starting size of the data container: small values (e.g., 1024 numbers) up
+  to big values (e.g., 1,048,576 numbers)
 - The total number of doubles conducted during the experiment (e.g., 5 or 10)
 
 TODO: You may need to design a custom experiment for certain sorting algorithms
